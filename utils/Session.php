@@ -65,7 +65,7 @@ class Session {
      */
     public static function getUserRole() {
         self::start();
-        return isset($_SESSION['user_role']) ? $_SESSION['user_role'] : null;
+        return isset($_SESSION['role']) ? $_SESSION['role'] : null;
     }
     
     /**
